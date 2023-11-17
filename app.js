@@ -11,7 +11,6 @@ btn.addEventListener("click",async ()=>{
 async function getCollege(country){
     try {
         let res=await axios.get(url+country);
-        console.log(res);
         return res;
     } catch (error) {
         
